@@ -34,7 +34,27 @@ This project demonstrates how to **connect a Java application to a MySQL databas
 - Get the latest **MySQL Connector/J** from [MySQL's official site](https://dev.mysql.com/downloads/connector/j/).
 - Add the **JAR file** to your project's classpath.
 
-### 3️⃣ Configure the Database Connection
+### 3️⃣ Adding JAR Files To projects
+ #### 🔹 For Eclipse
+
+1. **Download MySQL Connector/J**
+   - Go to the official [MySQL Connector/J download page](https://dev.mysql.com/downloads/connector/j/) and download the **JAR file** (`mysql-connector-java-x.x.x.jar`).
+
+2. **Open Eclipse**
+   - Open your project in **Eclipse**.
+
+3. **Add the JAR File to Your Project**
+   - Right-click on your project in **Project Explorer**.
+   - Select **Build Path → Configure Build Path**.
+   - Go to the **Libraries** tab and click on **Add External JARs**.
+   - Browse to and select the **mysql-connector-java-x.x.x.jar** file you downloaded.
+   - Click **Apply and Close**.
+
+4. **Verify Connection**
+   - Once added, the **JAR file** will be available for use in your project, and **Eclipse** will compile and execute with this dependency.
+
+
+###  4️⃣ Configure the Database Connection
 - Modify the database credentials in `DatabaseConnection.java`:
   ```java
   String url = "jdbc:mysql://localhost:3306/your_database";
