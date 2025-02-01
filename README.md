@@ -52,6 +52,25 @@ This project demonstrates how to **connect a Java application to a MySQL databas
 
 4. **Verify Connection**
    - Once added, the **JAR file** will be available for use in your project, and **Eclipse** will compile and execute with this dependency.
+  
+ #### 🔹 For IntelliJ IDEA
+
+1. **Download MySQL Connector/J**
+   - Go to the official [MySQL Connector/J download page](https://dev.mysql.com/downloads/connector/j/) and download the **JAR file** (`mysql-connector-java-x.x.x.jar`).
+
+2. **Open IntelliJ IDEA**
+   - Open your project in **IntelliJ IDEA**.
+
+3. **Add the JAR File to Your Project**
+   - Go to **File → Project Structure → Modules**.
+   - Click on the **Dependencies** tab.
+   - Click the **+** button at the top and choose **JARs or directories**.
+   - Select the downloaded **mysql-connector-java-x.x.x.jar** file.
+   - Click **Apply** and then **OK**.
+
+4. **Verify Connection**
+   - Once added, you should be able to use **JDBC** in your project, and **IntelliJ IDEA** will include the **JAR** during compilation and execution.
+
 
 
 ###  4️⃣ Configure the Database Connection
