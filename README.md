@@ -79,4 +79,7 @@ This project demonstrates how to **connect a Java application to a MySQL databas
   String url = "jdbc:mysql://localhost:3306/your_database";
   String user = "your_username";
   String password = "your_password";
+## 🔗 Useful Resources
+ - [JDBC Tutorial](https://www.geeksforgeeks.org/jdbc-tutorial/?ref=ml_lbp)
+ - [MySQL Connector/J Docs](https://dev.mysql.com/doc/connector-j/en/)
 
