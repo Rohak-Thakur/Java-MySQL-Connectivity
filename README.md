@@ -19,8 +19,8 @@ This project demonstrates how to **connect a Java application to a MySQL databas
 ## 📂 Project Structure
 #### 📂 Java-MySQL-Connectivity
 ####   ┣ 📂 src/ 
-####     ┃ ┣ 📜 DatabaseConnection.java <-- Main JDBC connection file
-####     ┃ ┣ 📜 Login.java <-- Sample Login authentication file
+####     ┃ ┣ 📜 Connectivity.java <-- Main JDBC connection file
+####     ┃ ┣ 📜 SQL_Query_Java.java <-- Sample SQL-JAVA Query Execution file
 ####   ┣ 📜 README.md <-- Project documentation 
 ####   ┣ 📂 MySQL-Connector-JAR/ <-- MySQL JDBC Driver
 
