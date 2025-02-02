@@ -9,8 +9,8 @@ public class Connectivity {
 
         // Database URL, username, and password
         String url = "jdbc:mysql://localhost:3306/Advance_java"; // Change to your database in "Advance_java"
-        String user = "root"; // Change to your MySQL username
-        String password = "123456"; // Change to your MySQL password
+        String user = "user_name"; // Change to your MySQL username
+        String password = "your_password"; // Change to your MySQL password
 
         try {
             // Load MySQL Driver (Ensure JDBC JAR is added)
