@@ -7,7 +7,7 @@ public class Sql_query_java {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
 
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Advance_java", "root", "123456");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Your_Database", "User", "Your_password");
             System.out.println("Connection established");
 
 
